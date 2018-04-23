@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/mainColor">
+
+    <ImageView
+        android:id="@+id/ivReceipt"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:src="@mipmap/home_icon_gather"/>
+
+    <ImageView
+        android:id="@+id/ivScan"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ivReceipt"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/home_icon_scan"/>
+
+
+
+    <ImageView
+        android:id="@+id/ivInfo2"
+        android:visibility="gone"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/home_icon_problem"/>
+
+</RelativeLayout>
